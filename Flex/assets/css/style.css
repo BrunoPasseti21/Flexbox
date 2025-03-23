@@ -235,3 +235,15 @@ article .news_resume{
 article a{
     text-decoration: none;
 }
+
+.departments{
+    flex: 1;
+}
+
+.departments_sections{
+    background-color: #2b4c99;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
