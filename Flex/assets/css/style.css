@@ -237,13 +237,115 @@ article a{
 }
 
 .departments{
+    display: flex;
     flex: 1;
 }
 
 .departments_sections{
     background-color: #2b4c99;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 140px;
+    min-height: 140px;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+.Information-text{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #555;
+}
+
+.Information-by img{
+    width: 25px;
+    height: 25px;
+    padding-top: 12px;
+}
+
+.Information-by{
+    display: flex;
+    margin-top: 10px;
+}
+
+.Information-by-text{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.Information-by-text a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2b4c99;
+}
+
+footer{
+
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+    flex: 1;
+}
+
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fm1{
+    background-color: #39aae1;
+}
+
+.fm2{
+    background-color: #0079c7;
+}
+
+.fm3{
+    background-color: #2b4c99;
+}
+
+.footer_area{
+    display: flex;
+}
+
+.footer_area_item{
+    flex: 1;
+    color: #fff;
+}
+
+footer .widget_title_text{
+    color: #fff;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.banner_title_footer{
+    font-size: 21px;
+}
+
+.banner_desc_footer{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
